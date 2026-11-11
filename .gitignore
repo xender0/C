@@ -1,5 +1,20 @@
-.vscode
-*.o
-*.obj
-*.out
-*.exe
+# Ignore everything
+*
+
+# Allow directories
+!*/
+
+# Allow C/C++ source and header files
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+
+# Allow Git configuration
+!.gitignore
+
+# Allow project documentation and build configuration
+!README.md
+!Makefile
+!CMakeLists.txt
+!LICENSE
